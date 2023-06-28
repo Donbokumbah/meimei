@@ -109,7 +109,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({params:{slug}}){
   const category = await fetchdata(
-    `/api/categories?populate=*&filters[slug][$eq]=${slug}`
+    `/api/categories?filters[slug][$eq]=${slug}`
 );
   const products = await fetchdata(`/api/products?populate=*&[filters][categories]
   [slug][$eq]=${slug}&pagination[page]=1&pagination[pageSize]=${maxPageQunatity}`);
