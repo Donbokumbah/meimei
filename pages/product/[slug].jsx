@@ -1,11 +1,10 @@
 import React from 'react';
-import { useRouter } from 'next/router';
 import Wrapper from '@/components/Wrapper';
 import ProductDetailCoursel from '@/components/ProductDetailCoursel';
 import RelatedProducts from '@/components/RelatedProducts';
 import { fetchdata } from '@/utils/api';
 import ReactMarkdown from 'react-markdown';
-import {useSelector,useDispatch} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { addToCart } from '@/store/cartSlice';
