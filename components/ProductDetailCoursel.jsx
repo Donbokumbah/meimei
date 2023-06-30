@@ -13,7 +13,7 @@ const ProductDetailCoursel = ({images}) => {
         thumbWidth={50}
         className='max-h-[100%] overflow-auto'
         >
-            {images.map((i) => (
+            {images?.map((i) => (
                 <img
                 key={i.id} src={i.attributes.url} alt={i.attributes.name} />
             ))}

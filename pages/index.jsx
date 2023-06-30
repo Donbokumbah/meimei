@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import ProductsHeading from "@/components/ProductsHeading";
 import Wrapper from "@/components/Wrapper";
-import Products from "@/components/Products";
+import Products from "@/components/products";
 import { fetchdata } from "@/utils/api";
 // import { useEffect, useState } from "react";
 
