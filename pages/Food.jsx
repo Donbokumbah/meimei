@@ -1,4 +1,3 @@
-import Products from "@/components/Products";
 import ProductsHeading from "@/components/ProductsHeading";
 import Wrapper from "@/components/Wrapper";
 import { fetchdata } from "@/utils/api";

@@ -1,7 +1,7 @@
 import React from 'react';
 import Wrapper from '@/components/Wrapper';
 import ProductDetailCoursel from '@/components/ProductDetailCoursel.jsx';
-import RelatedProducts from '@/components/RelatedProducts.jsx';
+import RelatedProducts from '@/components/RelatedItmes.jsx';
 import { fetchdata } from '@/utils/api';
 import ReactMarkdown from 'react-markdown';
 import {useDispatch} from 'react-redux'
