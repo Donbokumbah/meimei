@@ -1,9 +1,8 @@
+import Products from "@/components/Products";
 import ProductsHeading from "@/components/ProductsHeading";
 import Wrapper from "@/components/Wrapper";
-import Products from "@/components/products";
 import { fetchdata } from "@/utils/api";
-
-
+import Products from '@/components/Products';
 
 export default function Home({products}) {
   return (

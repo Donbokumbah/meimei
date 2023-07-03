@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Wrapper from '@/components/Wrapper';
-import Products from '@/components/products';
 import { fetchdata } from '@/utils/api';
 import useSWR from 'swr';
 import { useRouter } from 'next/router';
+import Products from '@/components/Products';
 
 const maxPageQunatity = 3;
 
